@@ -4,7 +4,15 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+function getRandomInt(min, max) {
+    let a = Math.ceil(min);
+     let b = Math.floor(max);
+     const final = Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+     console.log(final);
+   }
+ getRandomInt(0,3);
 
+// var choice = $("#userChoice")
 
 
 // DOCUMENT READY FUNCTION BELOW
