@@ -9,10 +9,13 @@ function getRandomInt(min, max) {
      let b = Math.floor(max);
      const final = Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
      console.log(final);
+     return final;
    }
- getRandomInt(0,3);
+let comChoice = getRandomInt(0,3);
+console.log(comChoice);
 
-// var choice = $("#userChoice")
+let choice = $("#userChoice").val();
+console.log(choice);
 
 
 // DOCUMENT READY FUNCTION BELOW
