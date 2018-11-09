@@ -31,14 +31,41 @@ $("#computerChoice").text(options[comChoice]);
 
 //deciding the winner
 
-if(choice === "scissors" && comChoice === "paper"){
-alert("Human Wins");
+if(choice === "scissors" && comChoice === 2){
+  $("#winner").text("Player One Wins!!!")
+// alert("Human Wins");
 }
-else if(choice === "scissors" && comChoice === "rock"){
-alert("Computer Wins");
+else if(choice === "scissors" && comChoice === 1){
+  $("#winner").text("The Computer Wins!!!")
+// alert("Computer Wins");
 }
-else if(choice === "scissors" && comChoice === "scissors"){
-alert("Tie");
+else if(choice === "scissors" && comChoice === 0){
+  $("#winner").text("It's a tie!!!")
+// alert("Tie");
+}
+else if(choice === "rock" && comChoice === 1){
+  $("#winner").text("It's a tie!!!")
+// alert("Tie");
+}
+else if(choice === "rock" && comChoice === 0){
+  $("#winner").text("Player One Wins!!!")
+// alert("Human Wins");
+}
+else if(choice === "rock" && comChoice === 2){
+  $("#winner").text("The Computer Wins!!!")
+// alert("Computer Wins");
+}
+else if(choice === "paper" && comChoice === 0){
+  $("#winner").text("The Computer Wins!!!")
+// alert("Computer Wins");
+}
+else if(choice === "paper" && comChoice === 2){
+  $("#winner").text("It's a tie!!!")
+// alert("Tie");
+}
+else if(choice === "paper" && comChoice === 1){
+  $("#winner").text("Player One Wins!!!")
+// alert("Human Wins");
 }
 //test
 // alert("hi");
