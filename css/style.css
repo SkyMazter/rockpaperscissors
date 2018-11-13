@@ -7,3 +7,20 @@
   justify-content:space-between;
   
 }
+#winner{
+  font-family: 'Permanent Marker', cursive;
+}
+.title{
+  font-family: 'Permanent Marker', cursive;
+}
+body{
+  background-color:#3571d1;
+}
+#userChoice{
+  font-family: 'Permanent Marker', cursive;
+  color:red;
+}
+#computerChoice{
+  font-family: 'Permanent Marker', cursive;
+  color:red;
+}

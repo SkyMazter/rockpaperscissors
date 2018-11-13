@@ -5,7 +5,7 @@
   <title>RPS Game</title>
   <!-- Link CSS here -->
   <link rel="stylesheet" href="css/style.css">
-  
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 
 <body>
@@ -21,26 +21,36 @@
      -->
   <div class="row">
       <h1>Rock Paper Scissors</h1>
-      <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
-
+      <img id="gameImg" src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
+      <div id="rules">
+        <h1>How to Play</h1>
+        <p>Type in Either rock, paper, or scissors</p>
+        <p>NO UPPERCASE</p>
+        <p>Make sure that they are spelled exactly as shown above</p>
+      </div>
       <h3>Please Submit Your Choice Below</h3>
       <div>
         <input id="input">
         <button id="shoot">Shoot!</button>
+        <button id="howTo">How To Play</button>
+        <button id="back">Back to img</button>
       </div>
 
       <div id="choices" class="row">
         <div>
-          <h4 class="userTitle">User Choice</h4>
-          <p id="userChoice"></p>
+          <h4 class="title">User Choice</h4>
+          <h1 id="userChoice"></h1>
         </div>
         <div>
-          <h4 class="comTitle">Computer Choice</h4>
-          <p id="computerChoice"></p>
+          <h4 class="title">Computer Choice</h4>
+          <h1 id="computerChoice"></h1>
         </div>
       </div>
       <div id="result">
         <h1 id="winner"></h1>
+        <img id = "win" src="https://media.giphy.com/media/KEVNWkmWm6dm8/giphy.gif">
+        <img id = "draw" src="https://media1.tenor.com/images/0ceacca8027c312fa938ace4a415d408/tenor.gif?itemid=9081826">
+        <img id = "loss" src="https://media.giphy.com/media/3o6ZtdHSz2YLQWG55C/giphy.gif">
       </div>
   </div>
 
