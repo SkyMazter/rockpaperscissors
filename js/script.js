@@ -5,9 +5,9 @@
 //GLOBAL VARIABLES
 /* global $ */
 
-$("#win").hide();
-$("#lose").hide();
-$("#draw").hide();
+// $("#win").hide();
+// $("#lose").hide();
+// $("#draw").hide();
 
 $("#back").hide();
 $("#rules").hide();
@@ -38,51 +38,51 @@ $("#computerChoice").text(options[comChoice]);
 
 if(choice === "scissors" && comChoice === 2){`z`
   $("#winner").text("Player One Wins!!!");
-  $("#win").show();
+  // $("#win").show();
 // alert("Human Wins");
 }
 else if(choice === "scissors" && comChoice === 1){
   $("#winner").text("The Computer Wins!!!");
-  $("#lose").show();
+  // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "scissors" && comChoice === 0){
   $("#winner").text("It's a tie!!!");
-  $("#draw").show();
+  // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "rock" && comChoice === 1){
   $("#winner").text("It's a tie!!!");
-  $("#draw").show();
+  // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "rock" && comChoice === 0){
   $("#winner").text("Player One Wins!!!");
-  $("#win").show();
+  // $("#win").show();
 // alert("Human Wins");
 }
 else if(choice === "rock" && comChoice === 2){
   $("#winner").text("The Computer Wins!!!");
-  $("#lose").show();
+  // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "paper" && comChoice === 0){
   $("#winner").text("The Computer Wins!!!");
-  $("#lose").show();
+  // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "paper" && comChoice === 2){
   $("#winner").text("It's a tie!!!");
-  $("#draw").show();
+  // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "paper" && comChoice === 1){
   $("#winner").text("Player One Wins!!!");
-  $("#win").show();
+  // $("#win").show();
 // alert("Human Wins");
 }
 else{
-  
+
 }
 //test
 // alert("hi");
