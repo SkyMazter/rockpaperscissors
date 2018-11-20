@@ -9,18 +9,34 @@
 }
 #winner{
   font-family: 'Permanent Marker', cursive;
+  color:red;
 }
 .title{
   font-family: 'Permanent Marker', cursive;
+  color:red;
 }
 body{
-  background-color:#3571d1;
+  background-color:#002f7a;
 }
 #userChoice{
   font-family: 'Permanent Marker', cursive;
   color:red;
 }
 #computerChoice{
+  font-family: 'Permanent Marker', cursive;
+  color:red;
+}
+button{
+  color: White;
+  background-color: red;
+  font-family: 'Permanent Marker', cursive;
+}
+input{
+  color: White;
+  background-color: red;
+  font-family: 'Permanent Marker', cursive;
+}
+.text{
   font-family: 'Permanent Marker', cursive;
   color:red;
 }

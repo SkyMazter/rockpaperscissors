@@ -38,51 +38,61 @@ $("#computerChoice").text(options[comChoice]);
 
 if(choice === "scissors" && comChoice === 2){`z`
   $("#winner").text("Player One Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/KEVNWkmWm6dm8/giphy.gif");
   // $("#win").show();
 // alert("Human Wins");
 }
 else if(choice === "scissors" && comChoice === 1){
   $("#winner").text("The Computer Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/3o6ZtdHSz2YLQWG55C/giphy.gif");
   // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "scissors" && comChoice === 0){
   $("#winner").text("It's a tie!!!");
+  $("#gif").attr("src","https://media1.tenor.com/images/0ceacca8027c312fa938ace4a415d408/tenor.gif?itemid=9081826");
   // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "rock" && comChoice === 1){
   $("#winner").text("It's a tie!!!");
+  $("#gif").attr("src","https://media1.tenor.com/images/0ceacca8027c312fa938ace4a415d408/tenor.gif?itemid=9081826");
   // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "rock" && comChoice === 0){
   $("#winner").text("Player One Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/KEVNWkmWm6dm8/giphy.gif");
   // $("#win").show();
 // alert("Human Wins");
 }
 else if(choice === "rock" && comChoice === 2){
   $("#winner").text("The Computer Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/3o6ZtdHSz2YLQWG55C/giphy.gif");
   // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "paper" && comChoice === 0){
   $("#winner").text("The Computer Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/3o6ZtdHSz2YLQWG55C/giphy.gif");
   // $("#lose").show();
 // alert("Computer Wins");
 }
 else if(choice === "paper" && comChoice === 2){
   $("#winner").text("It's a tie!!!");
+  $("#gif").attr("src","https://media1.tenor.com/images/0ceacca8027c312fa938ace4a415d408/tenor.gif?itemid=9081826");
   // $("#draw").show();
 // alert("Tie");
 }
 else if(choice === "paper" && comChoice === 1){
   $("#winner").text("Player One Wins!!!");
+  $("#gif").attr("src","https://media.giphy.com/media/KEVNWkmWm6dm8/giphy.gif");
   // $("#win").show();
 // alert("Human Wins");
 }
 else{
-
+  $("#winner").text("Check Ur Spelling");
+  $("#gif").attr("src","https://media.giphy.com/media/3ELtfmA4Apkju/giphy.gif");
 }
 //test
 // alert("hi");
